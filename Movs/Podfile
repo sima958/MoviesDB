@@ -1,0 +1,15 @@
+platform :ios, ’11.2’
+
+target 'MovieApp' do
+  use_frameworks!
+
+  # Pods for MovieApp
+  pod 'Kingfisher', '~> 4.0'
+  pod 'Cache'
+
+  target 'MovieAppTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
